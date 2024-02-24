@@ -1,6 +1,11 @@
 # The VaultR :lock:
 
-An opinionated note taking / knowledge storage application for both personal and collaboration use. Merges the best features of Notion/Obsidian together.
+Note taking / knowledge vault application for both personal and collaboration use.
+
+Merges simplicity of Obsidian with basic real-time collaboration possibilities of Google Docs.
+
+### Features
+
 - different types of formats (with markdown as default)
 - real-time synchronization between many browser, desktop and mobile clients with the usage of Websockets and CRDT (conflict-free replicated data type) 
 - offline access with automatic sync on reconnection
@@ -9,4 +14,4 @@ An opinionated note taking / knowledge storage application for both personal and
 - google/github auth
 
 ## Tech
-.NET, C#, Angular, TypeScript, Yjs, Node.js, MongoDB, Postgres, Docker, SQS, SignalR
+Node.js, Yjs, Angular, MongoDB, TypeScript, .NET, C#, Postgres, Docker, SQS, SignalR
